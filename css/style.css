@@ -15,11 +15,11 @@
     background-color: #fff;
     border-radius: 20px;
     width: 100%;
-    transform: translateY(-50px);
+    transform: translateY(-100px);
     flex-wrap: wrap;
 }
 .flex-container h1{
-    font-size: 2rem;
+    font-size: 3rem;
     color: chartreuse;
     flex-wrap: wrap;
     text-align: center;
@@ -30,14 +30,17 @@
     flex-wrap: wrap;
     transform: translateY(-125px);
     margin: 0 60px;
-
+    padding: 10px;
 }
 .btn{
-    transform: translateY(-100px);
+    transform: translateY(-80px);
     font-size: 2em;
     border-radius: 5px;
-    left: 20%;
+    left: 15%;
     position: relative;
     margin: 5px 15px;
-
+    cursor:pointer;
+    padding: 0px 10px;
+    background-image: linear-gradient(120deg,#EF3B36,#FFFFFF);
+    color:black;
 }
